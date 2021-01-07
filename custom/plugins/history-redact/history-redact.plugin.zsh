@@ -12,7 +12,7 @@
   fi
 
   for helper in $zshaddhistory_functions; do
-    if [[ $helper == "_historyscreen__redact_patterns" ]]; then
+    if [[ $helper == "_history_redact_patterns" ]]; then
       return
     fi
   done
