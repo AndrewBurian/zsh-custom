@@ -1,0 +1,3 @@
+cdtmp() {
+	cd $(mktemp -d)
+}
