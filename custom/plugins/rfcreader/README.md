@@ -8,7 +8,9 @@ document page (56 lines). Use <space> to advance one page and <b> to back up one
 ## Commands
 
 `rfc <number | alias>` open an RFC (number or alias) with `less`
+
 `rfcname <number> <alias>` create an alias for a numbered rfc for easy access
+
 `rfcls [ls-flags]` equivalent to `ls [ls-flags] $RFC_ALIAS_PATH`
 
 ## Environment
